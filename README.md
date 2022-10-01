@@ -12,5 +12,7 @@ Disclaimer i didnt own all the script. Every script owner will be credited!
 
 - Door (Manual) [Vynixius]
     RegularVynixu
- 
+
+- Evade [Flare Hub]
+    1-FO
 ```

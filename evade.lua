@@ -8,4 +8,4 @@ OrionLib:MakeNotification({
     Time = "5",
 })
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/nocturno"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/flarehub.lua"))()

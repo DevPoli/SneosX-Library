@@ -1,103 +1,45 @@
-if game.PlaceId == 2753915549 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "SneosX Hub | YBA", HidePremium = false, IntroText = "SneosX Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
-OrionLib:MakeNotification({
-    Name = "YBA | Info"
-    Content = "Please wait for script to loaded!"
-    Image = ""
-    Time = "5"
-})
+local yba = loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/yba.lua"))()
+local door = loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/Door.lua"))()
+local evade = loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/evade.lua"))()
+local pizza = loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/pizza-hub.lua"))()
+local boat = loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/buildaboat.lua"))()
+local scp3008 = loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/scp3008.lua"))()
+local funkyfriday = loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/funkyfriday.lua"))()
+local abg = loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/abg.lua"))()
+local bloxfruit = loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/netnahub.lua"))()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/yba.lua"))()
+if game.PlaceId == 2753915549 then
+yba()
 
 elseif game.PlaceId == 6516141723 then
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "SneosX Hub | Door", HidePremium = false, IntroText = "SneosX Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
-OrionLib:MakeNotification({
-    Name = "Door | Info!"
-    Content = "Hi there! Due to how door game work, please to our website and execute that script instend!"
-    Image = ""
-    Time = "3"
-})
+door()
 
-OrionLib:MakeNotification({
-    Name = "Door | Info!"
-    Content = "https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/Door.lua"
-    Image = ""
-    Time = "10"
-})
-
-elseif game.PlaceId == 9872472334 then
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "SneosX Hub | Evade", HidePremium = false, IntroText = "SneosX Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
-OrionLib:MakeNotification({
-    Name = "Evade | Info"
-    Content = "Please wait for script to loaded!"
-    Image = ""
-    Time = "3"
-})
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/flarehub.lua"))()
+elseif game.PlaceId == 9872472334 then 
+evade()
 
 elseif game.PlaceId == 192800 then
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "SneosX Hub | Pizza Places", HidePremium = false, IntroText = "SneosX Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
-OrionLib:MakeNotification({
-    Name = "Work at a pizza places | Info"
-    Content = "Please wait for script to loaded!"
-    Image = ""
-    Time = "5"
-})
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/pizzaplace.lua"))()
+pizza()
 
 elseif game.PlaceId == 537413528 then
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "SneosX Hub | Build A Boat", HidePremium = false, IntroText = "SneosX Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
-OrionLib:MakeNotification({
-    Name = "Boat | Info"
-    Content = "Please wait for script to loaded!"
-    Image = ""
-    Time = "3"
-})
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/buildaboat.lua"))()
+boat()
 
 elseif game.PlaceId == 2768379856 then
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "SneosX Hub | SCP 3008", HidePremium = false, IntroText = "SneosX Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
-OrionLib:MakeNotification({
-    Name = "SCP 3008 | Info"
-    Content = "Please wait for script to loaded!"
-    Image = ""
-    Time = "3"
-})
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/scp3008.lua"))()
+scp3008()
 
 elseif game.PlaceId == 6447798030 then
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "SneosX Hub | Funky Friday", HidePremium = false, IntroText = "SneosX Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
-OrionLib:MakeNotification({
-    Name = "Funky Friday | Info"
-    Content = "Please wait for script to loaded!"
-    Image = ""
-    Time = "3"
-})
+funkyfriday()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/funkyfriday.lua"))()
+elseif game.PlaceId == 8573962925
+abg()
 
-elseif game.PlaceId == 8573962925 then
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "SneosX Hub | Alternate Battleground", HidePremium = false, IntroText = "SneosX Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
-OrionLib:MakeNotification({
-    Name = "Alternate Battleground | Info"
-    Content = "Please wait for script to loaded!"
-    Image = ""
-    Time = "3"
-})
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPoli/SneosX-Library/main/abg.lua"))()
-
-end
-OrionLib:Init()
+else
+    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    local Window = OrionLib:MakeWindow({Name = "SneosX Hub | YBA", HidePremium = false, IntroText = "SneosX Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
+    OrionLib:MakeNotification({
+        Name = "Info",
+        Content = "Your game is not in our hub!",
+        Image = "",
+        Time = "10",
+    })

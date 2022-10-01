@@ -1,9 +1,9 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "SneosX Hub | YBA", HidePremium = false, IntroText = "SneosX Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "SneosX Hub | Evade", HidePremium = false, IntroText = "SneosX Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
-    Name = "YBA | Info",
-    Content = "Please wait for script to loaded!(10 - 20 Second)",
+    Name = "Evade | Info",
+    Content = "Flare Hub Loaded!",
     Image = "",
     Time = "5",
 })
